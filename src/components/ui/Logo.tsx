@@ -15,7 +15,7 @@ export default function Logo() {
         className="h-12 w-auto object-contain"
         unoptimized
       />
-      <span className="hidden lg:block">Alazzeh International</span>
+      <span className="block">Alazzeh International</span>
     </Link>
   );
 }

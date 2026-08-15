@@ -20,7 +20,7 @@ export default function FloatingActionButtons() {
         aria-label="Contact on WhatsApp"
       >
         <span className="material-symbols-outlined text-2xl">chat</span>
-        <span className="absolute end-full mx-4 bg-inverse-surface text-inverse-on-surface px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap hidden md:block">
+        <span className="absolute end-full mx-4 bg-inverse-surface text-inverse-on-surface px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap block">
           {t.floating.whatsApp}
         </span>
       </a>
@@ -32,7 +32,7 @@ export default function FloatingActionButtons() {
         <span className="material-symbols-outlined text-2xl group-hover:text-secondary transition-colors">
           arrow_upward
         </span>
-        <span className="absolute end-full mx-4 bg-inverse-surface text-inverse-on-surface px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap hidden md:block">
+        <span className="absolute end-full mx-4 bg-inverse-surface text-inverse-on-surface px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap block">
           {t.floating.backToTop}
         </span>
       </button>

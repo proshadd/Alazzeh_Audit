@@ -7,9 +7,9 @@ export default function Footer() {
   const { t } = useLanguage();
 
   return (
-    <footer className="bg-primary dark:bg-surface-container-lowest text-on-primary dark:text-on-surface font-body-md text-body-md w-full pt-16 pb-8 border-t-4 border-secondary-fixed mt-auto">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-12">
-        <div className="space-y-4 md:col-span-2">
+    <footer className="bg-primary dark:bg-surface-container-lowest text-on-primary dark:text-on-surface font-body-md text-body-md w-full pt-16 pb-8 border-t-4 border-secondary-fixed mt-auto min-w-[1200px]">
+      <div className="grid grid-cols-4 gap-gutter px-margin-desktop max-w-container-max mx-auto mb-12">
+        <div className="space-y-4 col-span-2">
           <h4 className="font-headline-lg text-headline-lg font-bold text-secondary-fixed mb-4">
             {t.footer.companyName}
           </h4>
@@ -101,7 +101,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-on-primary/20 pt-8 text-center text-on-primary/60 text-sm px-margin-mobile">
+      <div className="border-t border-on-primary/20 pt-8 text-center text-on-primary/60 text-sm px-margin-desktop">
         © {new Date().getFullYear()} {t.footer.companyName}. {t.footer.rightsReserved}
       </div>
     </footer>

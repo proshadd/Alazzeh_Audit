@@ -7,7 +7,7 @@ export default function ContactPage() {
 
   return (
     <>
-      <section className="relative py-24 px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto bg-surface-container-lowest">
+      <section className="relative py-24 px-margin-desktop w-full max-w-container-max mx-auto bg-surface-container-lowest min-w-[1200px]">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h1 className="font-display-lg text-display-lg text-primary mb-4">
             {t.contact.heading}
@@ -18,7 +18,7 @@ export default function ContactPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-2 gap-12">
           {/* Contact Form */}
           <div className="bg-surface-container-lowest p-8 rounded-xl shadow-premium-card">
             <h3 className="font-headline-lg text-headline-lg text-primary mb-6">
@@ -40,7 +40,7 @@ export default function ContactPage() {
                   required
                 />
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-2 gap-6">
                 <div>
                   <label
                     htmlFor="email"

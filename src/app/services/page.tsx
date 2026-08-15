@@ -10,8 +10,8 @@ export default function ServicesPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative py-24 px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto bg-surface-container-lowest">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      <section className="relative py-24 px-margin-desktop w-full max-w-container-max mx-auto bg-surface-container-lowest min-w-[1200px]">
+        <div className="grid grid-cols-2 gap-16 items-center">
           <div className="space-y-6">
             <h1 className="font-display-lg text-display-lg text-primary">
               {t.services.heading}
@@ -33,8 +33,8 @@ export default function ServicesPage() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-24 px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto bg-background">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <section className="py-24 px-margin-desktop w-full max-w-container-max mx-auto bg-background min-w-[1200px]">
+        <div className="grid grid-cols-2 gap-8">
           {/* Service Card 1 */}
           <div className="bg-surface-container-lowest p-8 rounded-xl shadow-premium-card hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border-t-4 border-secondary-fixed group cursor-pointer flex flex-col h-full">
             <div className="w-16 h-16 rounded-full bg-primary-container flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">

@@ -10,11 +10,11 @@ export default function Header() {
   const { t, toggleLanguage } = useLanguage();
 
   return (
-    <header className="bg-surface/90 dark:bg-primary/90 backdrop-blur-md fixed top-0 w-full z-50 border-b border-outline-variant/30 shadow-sm transition-transform duration-200">
-      <div className="flex justify-between items-center h-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+    <header className="bg-surface/90 dark:bg-primary/90 backdrop-blur-md fixed top-0 w-full z-50 border-b border-outline-variant/30 shadow-sm transition-transform duration-200 min-w-[1200px]">
+      <div className="flex justify-between items-center h-20 px-margin-desktop max-w-container-max mx-auto w-full">
         <Logo />
         
-        <nav className="hidden md:flex items-center gap-6 font-headline-md text-body-md font-semibold">
+        <nav className="flex items-center gap-6 font-headline-md text-body-md font-semibold">
           <Link
             href="/services"
             className={`transition-colors hover:text-primary dark:hover:text-primary-fixed-dim ${
@@ -58,7 +58,7 @@ export default function Header() {
           </button>
           <Link
             href="/contact"
-            className="bg-primary text-on-primary px-6 py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors shadow-sm hidden sm:block"
+            className="bg-primary text-on-primary px-6 py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors shadow-sm block"
           >
             {t.nav.freeConsultation}
           </Link>

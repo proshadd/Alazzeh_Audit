@@ -8,9 +8,9 @@ export default function AboutPage() {
 
   return (
     <>
-      <section className="relative py-24 px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto bg-surface-container-lowest">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-          <div className="relative h-[500px] rounded-xl overflow-hidden shadow-2xl order-2 md:order-1">
+      <section className="relative py-24 px-margin-desktop w-full max-w-container-max mx-auto bg-surface-container-lowest min-w-[1200px]">
+        <div className="grid grid-cols-2 gap-16 items-center">
+          <div className="relative h-[500px] rounded-xl overflow-hidden shadow-2xl">
             <Image
               src="/about-team.jpg"
               alt="Team of professional auditors discussing financial reports."
@@ -18,7 +18,7 @@ export default function AboutPage() {
               className="object-cover"
             />
           </div>
-          <div className="space-y-6 order-1 md:order-2">
+          <div className="space-y-6">
             <h1 className="font-display-lg text-display-lg text-primary mb-2">
               {t.about.heading}
             </h1>
@@ -34,8 +34,8 @@ export default function AboutPage() {
       </section>
 
       {/* Vision & Mission */}
-      <section className="py-24 px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto bg-background">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <section className="py-24 px-margin-desktop w-full max-w-container-max mx-auto bg-background min-w-[1200px]">
+        <div className="grid grid-cols-2 gap-8">
           <div className="bg-surface-container-lowest p-8 rounded-xl shadow-premium-card border-s-4 border-secondary-fixed">
             <div className="w-16 h-16 rounded-full bg-primary-container flex items-center justify-center mb-6">
               <span className="material-symbols-outlined text-secondary-fixed text-3xl">
@@ -66,7 +66,7 @@ export default function AboutPage() {
       </section>
 
       {/* Professional Accreditations & Memberships */}
-      <section className="py-20 px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto bg-surface-container-lowest border-t border-outline-variant/30">
+      <section className="py-20 px-margin-desktop w-full max-w-container-max mx-auto bg-surface-container-lowest border-t border-outline-variant/30 min-w-[1200px]">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="font-headline-lg text-headline-lg text-primary mb-3">
             {t.about.accreditationsTitle}
@@ -74,7 +74,7 @@ export default function AboutPage() {
           <div className="w-16 h-1 bg-secondary-fixed mx-auto"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-2 gap-8">
           {/* JACPA Membership Card */}
           <div className="bg-background p-8 rounded-xl shadow-premium-card border-s-4 border-primary flex flex-col justify-between hover:shadow-lg transition-shadow">
             <div>
