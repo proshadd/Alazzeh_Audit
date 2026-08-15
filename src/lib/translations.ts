@@ -42,6 +42,15 @@ export const translations = {
       missionTitle: "رسالتنا",
       missionText:
         "تقديم خدمات استثنائية ذات قيمة مضافة عالية لعملائنا من خلال فريق عمل محترف يتمتع بالكفاءة والخبرة، مع الالتزام التام بمعايير الجودة المهنية وأخلاقيات المهنة العالمية.",
+      accreditationsTitle: "الاعتمادات والعضويات المهنية",
+      jacpaTitle: "مدقق قانوني معتمد",
+      jacpaDesc: "عضو جمعية المحاسبين القانونيين الأردنيين",
+      jacpaLicense: "إجازة رقم ( 1251 )",
+      jacpaUrl: "https://www.jacpa.org.jo",
+      esitsTitle: "خبير ضريبي معتمد",
+      esitsDesc: "عضو جمعية خبراء الضرائب الأردنية",
+      esitsUrl: "http://esits.org.jo/ar/Home",
+      visitWebsite: "زيارة الموقع الرسمي",
     },
     services: {
       pageTitle: "خدماتنا | العزة الدولية للتدقيق والاستشارات",
@@ -138,6 +147,15 @@ export const translations = {
       missionTitle: "Our Mission",
       missionText:
         "To deliver exceptional high-value services to our clients through a highly professional and skilled team, adhering strictly to international professional standards and ethics.",
+      accreditationsTitle: "Professional Accreditations & Memberships",
+      jacpaTitle: "Certified Public Auditor",
+      jacpaDesc: "Member of the Jordanian Association of Certified Public Accountants",
+      jacpaLicense: "License No. (1251)",
+      jacpaUrl: "https://www.jacpa.org.jo",
+      esitsTitle: "Certified Tax Expert",
+      esitsDesc: "Member of the Jordanian Society of Income Tax Experts",
+      esitsUrl: "http://esits.org.jo/ar/Home",
+      visitWebsite: "Visit Official Website",
     },
     services: {
       pageTitle: "Services | Alazzeh International Audit & Consulting",

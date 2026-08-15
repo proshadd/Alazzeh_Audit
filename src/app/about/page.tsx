@@ -33,6 +33,7 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Vision & Mission */}
       <section className="py-24 px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto bg-background">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-surface-container-lowest p-8 rounded-xl shadow-premium-card border-s-4 border-secondary-fixed">
@@ -60,6 +61,85 @@ export default function AboutPage() {
             <p className="font-body-md text-body-md text-on-surface-variant">
               {t.about.missionText}
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Professional Accreditations & Memberships */}
+      <section className="py-20 px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto bg-surface-container-lowest border-t border-outline-variant/30">
+        <div className="text-center max-w-3xl mx-auto mb-12">
+          <h2 className="font-headline-lg text-headline-lg text-primary mb-3">
+            {t.about.accreditationsTitle}
+          </h2>
+          <div className="w-16 h-1 bg-secondary-fixed mx-auto"></div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* JACPA Membership Card */}
+          <div className="bg-background p-8 rounded-xl shadow-premium-card border-s-4 border-primary flex flex-col justify-between hover:shadow-lg transition-shadow">
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-primary">
+                  <span className="material-symbols-outlined text-2xl text-secondary-fixed">
+                    verified
+                  </span>
+                </div>
+                <div>
+                  <h3 className="font-headline-md text-xl font-bold text-primary">
+                    {t.about.jacpaTitle}
+                  </h3>
+                  <span className="inline-block bg-primary/10 text-primary font-bold text-xs px-3 py-1 rounded-full mt-1">
+                    {t.about.jacpaLicense}
+                  </span>
+                </div>
+              </div>
+              <p className="font-body-md text-on-surface-variant mb-6 leading-relaxed">
+                {t.about.jacpaDesc}
+              </p>
+            </div>
+            <a
+              href={t.about.jacpaUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:text-secondary-fixed transition-colors"
+            >
+              {t.about.visitWebsite}
+              <span className="material-symbols-outlined text-sm rtl:rotate-180">
+                open_in_new
+              </span>
+            </a>
+          </div>
+
+          {/* ESITS Membership Card */}
+          <div className="bg-background p-8 rounded-xl shadow-premium-card border-s-4 border-primary flex flex-col justify-between hover:shadow-lg transition-shadow">
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-primary">
+                  <span className="material-symbols-outlined text-2xl text-secondary-fixed">
+                    workspace_premium
+                  </span>
+                </div>
+                <div>
+                  <h3 className="font-headline-md text-xl font-bold text-primary">
+                    {t.about.esitsTitle}
+                  </h3>
+                </div>
+              </div>
+              <p className="font-body-md text-on-surface-variant mb-6 leading-relaxed">
+                {t.about.esitsDesc}
+              </p>
+            </div>
+            <a
+              href={t.about.esitsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:text-secondary-fixed transition-colors"
+            >
+              {t.about.visitWebsite}
+              <span className="material-symbols-outlined text-sm rtl:rotate-180">
+                open_in_new
+              </span>
+            </a>
           </div>
         </div>
       </section>
