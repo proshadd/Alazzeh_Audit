@@ -23,7 +23,7 @@ export const translations = {
       feasibilityStudies: "دراسات الجدوى",
       privacyPolicy: "سياسة الخصوصية",
       termsOfService: "شروط الخدمة",
-      rightsReserved: "جميع الحقوق محفوظة. مرخص من JACPA.",
+      rightsReserved: "جميع الحقوق محفوظة. مرخص من POWERBUYHUB.",
     },
     floating: {
       whatsApp: "واتساب",
@@ -128,7 +128,7 @@ export const translations = {
       feasibilityStudies: "Feasibility Studies",
       privacyPolicy: "Privacy Policy",
       termsOfService: "Terms of Service",
-      rightsReserved: "All rights reserved. Licensed by JACPA.",
+      rightsReserved: "All rights reserved. Licensed by POWERBUYHUB.",
     },
     floating: {
       whatsApp: "WhatsApp",
